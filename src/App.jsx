@@ -22,8 +22,8 @@ const App = () => {
     <div className="app-container">
       <CartProvider>
         <Routes>
-          <Route path="/" element={<UserLogin />} />
-          <Route path="/home" element={<Home />} />
+          {/* <Route path="/" element={<UserLogin />} /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/flavors/:categoryId" element={<FlavoredItems />} />
           {/* <Route path="/cart" element={<Cart />} /> */}
           <Route path="/admin/login" element={<Login />} />
