@@ -1,0 +1,62 @@
+.dep-container-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-container label {
+  font-weight: 600;
+  color: #333;
+}
+
+.img-in {
+  margin-top: 5px;
+}
+
+.prev-image {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.uploaded-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.uploaded-image {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.dep-ad-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.dep-ad-btn button {
+  background-color: #1890ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dep-ad-btn button:hover {
+  background-color: #40a9ff;
+}

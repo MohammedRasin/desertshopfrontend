@@ -1,0 +1,95 @@
+/* General styles for the login container */
+.user-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling the login form */
+.user-login-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading styles */
+.user-login-form .heading {
+  margin-bottom: 1.5rem;
+}
+
+.user-login-form .heading h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0;
+}
+
+.user-login-form .heading span {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Label styles */
+.user-login-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+/* Input field styles */
+.user-login-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Button styles */
+.login-btn-container .login-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn-container .login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Link styles */
+.login-btn-container p {
+  font-size: 0.9rem;
+  color: #007bff;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  text-decoration: underline;
+}
+
+.login-btn-container p:hover {
+  color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .user-login-form {
+    padding: 1.5rem;
+  }
+
+  .user-login-form .heading h1 {
+    font-size: 1.5rem;
+  }
+}

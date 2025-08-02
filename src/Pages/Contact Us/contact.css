@@ -1,0 +1,71 @@
+/* ContactUs.css */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.contact-input {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.contact-input:focus {
+  border-color: #1890ff !important;
+  box-shadow: 0 0 5px rgba(24, 144, 255, 0.5);
+}
+
+.ant-btn {
+  font-size: 1rem;
+  height: 45px;
+  border-radius: 8px;
+}
+
+.contact-info {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.contact-info p {
+  margin: 0.3rem 0;
+}
+
+.contact-map {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-map-frame {
+  width: 100%;
+  height: 280px;
+  border: none;
+  border-radius: 12px;
+}

@@ -1,0 +1,58 @@
+/* AdminLayout.css */
+
+.admin-layout {
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+.admin-layout.dark {
+  background: #141414;
+}
+
+.admin-sider {
+  height: 100vh;
+}
+
+.admin-logo {
+  height: 32px;
+  margin: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.admin-menu {
+  border-right: none;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background: #fff;
+  transition: background 0.3s;
+}
+
+.admin-header.dark {
+  background: #1f1f1f;
+}
+
+.admin-content {
+  margin: 16px;
+  padding: 16px;
+  min-height: 280px;
+  border-radius: 8px;
+  background: #fff;
+  transition: background 0.3s;
+}
+
+.admin-content.dark {
+  background: #1f1f1f;
+}
+
+.admin-topbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
